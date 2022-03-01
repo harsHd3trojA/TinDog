@@ -1,0 +1,182 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Heading */
+.big-heading {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*Navbar*/
+
+.navbar {
+  padding-bottom: 4.5rem;
+  padding-top: 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+/*Download button*/
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title */
+
+.title-img {
+  width: 21%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/*features*/
+.feature-title {
+  font-size: 1.5rem;
+}
+
+#features {
+  position: relative;
+}
+
+.f-col {
+  padding: 5%;
+}
+
+.f-img {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.f-img:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial */
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.t-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.p-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+.price-title {
+  font-size: 1.5rem;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.p-col {
+  padding: 3% 2%;
+}
+
+.p-btn {
+  margin-top: 65px;
+}
+
+/* CTA */
+
+/* footer */
+
+.f-fa {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1000px) {
+  #title {
+    background-color: #ff4c68;;
+  }
+
+  #title .container-fluid{
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+}
